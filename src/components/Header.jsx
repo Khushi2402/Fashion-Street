@@ -1,4 +1,5 @@
 import react from 'react'
+import logo from '../logo.svg'
 
 const Header = () => {
     return (
@@ -6,17 +7,7 @@ const Header = () => {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
-              <a className="block text-teal-600" href="/">
-                <span className="sr-only">Home</span>
-                <svg
-                  className="h-8"
-                  viewBox="0 0 28 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  {/* Your SVG path data here */}
-                </svg>
-              </a>
+              <img src={logo} />
             </div>
   
             <div className="hidden md:block">
@@ -28,7 +19,7 @@ const Header = () => {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="/"
                     >
-                      About
+                      Shirts
                     </a>
                   </li>
                   <li>
@@ -36,7 +27,7 @@ const Header = () => {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="/"
                     >
-                      About
+                      T-shirts
                     </a>
                   </li>
                   <li>
@@ -44,7 +35,7 @@ const Header = () => {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="/"
                     >
-                      About
+                      Jeans
                     </a>
                   </li>
                   
