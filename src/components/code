@@ -1,0 +1,15 @@
+ <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+  <div className='flex grid grid-cols-3 gap-4 '>
+  <button className='opacity-50 overflow-hidden hover:opacity-100' >
+      <img src={search} />
+  </button>
+
+  <button className='opacity-50 overflow-hidden hover:opacity-100' >
+      <img src={cart} />
+  </button>
+  
+  <button className='opacity-50 overflow-hidden hover:opacity-100' onClick={handleClick}>
+      <img src={account} />
+  </button>
+  </div>
+</div> 
